@@ -1,0 +1,1399 @@
+[ @file = "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [Graphics,1,13,21]; ]
+using Toybox.Graphics;
+[ @file = "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [Lang,2,13,17]; ]
+using Toybox.Lang;
+[ @file = "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [System,3,13,19]; ]
+using Toybox.System;
+[ @file = "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Time,4,13,17]; ]
+using Toybox.Time;
+[ @file = "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Time,5,13,17]; @symbol_usingdef<2> = [Gregorian,5,18,27]; ]
+using Toybox.Time.Gregorian;
+[ @file = "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc"; @line = 6; @symbol_usingdef<0> = [Toybox,6,6,12]; @symbol_usingdef<1> = [WatchUi,6,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc"; @line = 7; @symbol_usingdef<0> = [Toybox,7,6,12]; @symbol_usingdef<1> = [ActivityMonitor,7,13,28]; ]
+using Toybox.ActivityMonitor;
+[ @file = "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc"; @line = 9; @symbol_classdef = [MyWatchFaceView,9,6,21]; @symbol_extends<0> = [WatchUi,9,30,37]; @symbol_extends<1> = [WatchFace,9,38,47]; ]
+class MyWatchFaceView extends WatchUi.WatchFace {
+    [ @file = "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc"; @line = 9; ]
+    <init> {
+    }
+    [ @file = "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc"; @line = 9; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc"; @line = 11; @position = 17; @symbol_constdef = [COLOR_ACCENT,11,17,29]; ]
+    protected
+    const COLOR_ACCENT = 0x00BFFF;
+    [ @file = "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc"; @line = 12; @position = 17; @symbol_constdef = [COLOR_DIM,12,17,26]; ]
+    protected
+    const COLOR_DIM = 0x555555;
+    [ @file = "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc"; @line = 13; @position = 17; @symbol_constdef = [COLOR_WARN,13,17,27]; ]
+    protected
+    const COLOR_WARN = 0xFF4444;
+    [ @file = "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc"; @line = 14; @position = 17; @symbol_constdef = [COLOR_OK,14,17,25]; ]
+    protected
+    const COLOR_OK = 0x44FF44;
+    [ @file = "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc"; @line = 16; @symbol_functiondef = [initialize,16,13,23]; ]
+    function initialize() as Void {
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_16_26_18_4_start:
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 17 8 ]
+        symbol [ WatchFace %tmp.2 17 8 17 ];
+        %tmp.2 = getv ? :WatchFace;
+        symbol [ initialize %tmp.3 17 18 28 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_16_26_18_4_stop:
+    }
+    [ @file = "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc"; @line = 21; @symbol_functiondef = [getHeartRate,21,20,32]; ]
+    protected
+    function getHeartRate() {
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_21_35_37_4_start:
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 22 8 ]
+        try @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_22_8_35_8_beginTry @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_22_8_35_8_endTry @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_22_8_35_8_catch @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_22_8_35_8_finally;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_22_8_35_8_beginTry:
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_22_12_33_8_start:
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 23 12 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_22_12_33_8_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_22_12_33_8_stop" ]
+        %iter.1 = local;
+        symbol [ iter %iter.1 23 16 20 ];
+        symbol [ Toybox %tmp.2 23 23 29 ];
+        %tmp.2 = getv ? :Toybox;
+        symbol [ SensorHistory %tmp.3 23 30 43 ];
+        %tmp.3 = getv %tmp.2 :SensorHistory;
+        symbol [ getHeartRateHistory %tmp.4 23 44 63 ];
+        %tmp.4 = getv function %tmp.3 :getHeartRateHistory;
+        %tmp.5 = newd 2;
+        %tmp.7 = const :period;
+        symbol [ period %tmp.7 24 17 23 const ];
+        %tmp.8 = 1;
+        %tmp.9 = dup %tmp.5;
+        %tmp.10 = aputv %tmp.9 %tmp.7 %tmp.8;
+        %tmp.12 = const :order;
+        symbol [ order %tmp.12 25 17 22 const ];
+        symbol [ Toybox %tmp.14 25 26 32 ];
+        %tmp.14 = getv ? :Toybox;
+        symbol [ SensorHistory %tmp.15 25 33 46 ];
+        %tmp.15 = getv %tmp.14 :SensorHistory;
+        symbol [ ORDER_NEWEST_FIRST %tmp.16 25 47 65 ];
+        %tmp.16 = getv %tmp.15 :ORDER_NEWEST_FIRST;
+        %tmp.17 = dup %tmp.10;
+        %tmp.18 = aputv %tmp.17 %tmp.12 %tmp.16;
+        %tmp.19 = invoke %tmp.3 %tmp.4(%tmp.18);
+        lputv %iter.1 %tmp.19;
+        symbol [ iter %iter.1 23 16 20 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 27 12 ]
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_27_12_32_12_if_stmt:
+        %tmp.20 = lgetv %iter.1;
+        symbol [ iter %tmp.20 27 16 20 ];
+        %tmp.21 = null;
+        %tmp.22 = ne %tmp.20 %tmp.21;
+        bf %tmp.22 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_27_12_32_12_if_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_27_12_32_12_if_true:
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_27_30_32_12_start:
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 28 16 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_27_30_32_12_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_27_30_32_12_stop" ]
+        %sample.2 = local;
+        symbol [ sample %sample.2 28 20 26 ];
+        %tmp.23 = lgetv %iter.1;
+        symbol [ iter %tmp.23 28 29 33 ];
+        %tmp.24 = as %tmp.23 { (!Null) };
+        symbol [ next %tmp.25 28 34 38 ];
+        %tmp.25 = getv function %tmp.24 :next;
+        %tmp.26 = invoke %tmp.24 %tmp.25();
+        lputv %sample.2 %tmp.26;
+        symbol [ sample %sample.2 28 20 26 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 29 16 ]
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_29_16_31_16_if_stmt:
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_29_20_29_73_begin:
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_29_20_29_50_begin:
+        %tmp.27 = lgetv %sample.2;
+        symbol [ sample %tmp.27 29 20 26 ];
+        %tmp.28 = null;
+        %tmp.29 = ne %tmp.27 %tmp.28;
+        bf %tmp.29 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_29_16_31_16_if_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_29_38_29_50_true:
+        %tmp.30 = lgetv %sample.2;
+        symbol [ sample %tmp.30 29 38 44 ];
+        %tmp.31 = as %tmp.30 { (!Null) };
+        %tmp.33 = const :data;
+        symbol [ data %tmp.33 29 50 54 const ];
+        %tmp.34 = canhazplz %tmp.31 %tmp.33;
+        push %tmp.34;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_29_38_29_50_end:
+        %tmp.35 = phi [%tmp.29 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_29_20_29_50_begin] [%tmp.34 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_29_38_29_50_true] [%tmp.35 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_29_38_29_50_end];
+        bf %tmp.35 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_29_16_31_16_if_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_29_58_29_73_true:
+        %tmp.36 = lgetv %sample.2;
+        symbol [ sample %tmp.36 29 58 64 ];
+        %tmp.37 = as %tmp.36 { (interface { var data; }) && (!Null) };
+        symbol [ data %tmp.38 29 65 69 ];
+        %tmp.38 = getv %tmp.37 :data;
+        %tmp.39 = null;
+        %tmp.40 = ne %tmp.38 %tmp.39;
+        push %tmp.40;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_29_58_29_73_end:
+        %tmp.41 = phi [%tmp.35 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_29_20_29_73_begin] [%tmp.40 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_29_58_29_73_true] [%tmp.41 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_29_58_29_73_end];
+        bf %tmp.41 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_29_16_31_16_if_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_29_16_31_16_if_true:
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_29_79_31_16_start:
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 30 20 ]
+        %tmp.42 = lgetv %sample.2;
+        symbol [ sample %tmp.42 30 27 33 ];
+        %tmp.43 = as %tmp.42 { (interface { var data; }) && (!Null) };
+        symbol [ data %tmp.44 30 34 38 ];
+        %tmp.44 = getv %tmp.43 :data;
+        jsr @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_22_8_35_8_finally;
+        ret %tmp.44;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_29_79_31_16_stop:
+        goto @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_29_16_31_16_if_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_29_16_31_16_if_end:
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_27_30_32_12_stop:
+        goto @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_27_12_32_12_if_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_27_12_32_12_if_end:
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_22_12_33_8_stop:
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_22_8_35_8_endTry:
+        jsr @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_22_8_35_8_finally;
+        goto @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_22_8_35_8_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_22_8_35_8_catch:
+        %tmp.45 = exception;
+        push %tmp.45;
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 33 10 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_22_8_35_8_catch" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_33_10_35_8_end" ]
+        %e.3 = local;
+        symbol [ e %e.3 33 17 18 ];
+        %tmp.46 = dup %tmp.45;
+        lputv %e.3 %tmp.46;
+        symbol [ e %e.3 33 17 18 ];
+        jsr @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_22_8_35_8_finally;
+        pop;
+        goto @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_22_8_35_8_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_33_10_35_8_end:
+        try @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_22_8_35_8_catch @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_33_10_35_8_end @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_33_10_35_8_end @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_22_8_35_8_finally;
+        jsr @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_22_8_35_8_finally;
+        throw %tmp.45;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_22_8_35_8_finally:
+        jsrret;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_22_8_35_8_end:
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 36 8 ]
+        %tmp.47 = null;
+        ret %tmp.47;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_21_35_37_4_stop:
+    }
+    [ @file = "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc"; @line = 39; @symbol_functiondef = [onUpdate,39,13,21]; @symbol_param<0> = [dc,39,22,24]; ]
+    function onUpdate(dc) {
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_start:
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 40 8 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_stop" ]
+        %w.1 = local;
+        symbol [ w %w.1 40 12 13 ];
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 40 16 18 ];
+        symbol [ getWidth %tmp.2 40 19 27 ];
+        %tmp.2 = getv function %tmp.1 :getWidth;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %w.1 %tmp.3;
+        symbol [ w %w.1 40 12 13 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 41 8 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_stop" ]
+        %h.2 = local;
+        symbol [ h %h.2 41 12 13 ];
+        %tmp.4 = lgetv %dc;
+        symbol [ dc %tmp.4 41 16 18 ];
+        symbol [ getHeight %tmp.5 41 19 28 ];
+        %tmp.5 = getv function %tmp.4 :getHeight;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        lputv %h.2 %tmp.6;
+        symbol [ h %h.2 41 12 13 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 42 8 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_stop" ]
+        %cx.3 = local;
+        symbol [ cx %cx.3 42 12 14 ];
+        %tmp.7 = lgetv %w.1;
+        symbol [ w %tmp.7 42 17 18 ];
+        %tmp.8 = 2;
+        %tmp.9 = div %tmp.7 %tmp.8;
+        lputv %cx.3 %tmp.9;
+        symbol [ cx %cx.3 42 12 14 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 43 8 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_stop" ]
+        %cy.4 = local;
+        symbol [ cy %cy.4 43 12 14 ];
+        %tmp.10 = lgetv %h.2;
+        symbol [ h %tmp.10 43 17 18 ];
+        %tmp.11 = 2;
+        %tmp.12 = div %tmp.10 %tmp.11;
+        lputv %cy.4 %tmp.12;
+        symbol [ cy %cy.4 43 12 14 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 46 8 ]
+        %tmp.13 = lgetv %dc;
+        symbol [ dc %tmp.13 46 8 10 ];
+        symbol [ setColor %tmp.14 46 11 19 ];
+        %tmp.14 = getv function %tmp.13 :setColor;
+        symbol [ Graphics %tmp.15 46 20 28 ];
+        %tmp.15 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.16 46 29 40 ];
+        %tmp.16 = getv %tmp.15 :COLOR_BLACK;
+        symbol [ Graphics %tmp.17 46 42 50 ];
+        %tmp.17 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.18 46 51 62 ];
+        %tmp.18 = getv %tmp.17 :COLOR_BLACK;
+        invoke %tmp.13 %tmp.14(%tmp.16, %tmp.18);
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 47 8 ]
+        %tmp.19 = lgetv %dc;
+        symbol [ dc %tmp.19 47 8 10 ];
+        symbol [ clear %tmp.20 47 11 16 ];
+        %tmp.20 = getv function %tmp.19 :clear;
+        invoke %tmp.19 %tmp.20();
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 50 8 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_stop" ]
+        %clockTime.5 = local;
+        symbol [ clockTime %clockTime.5 50 12 21 ];
+        symbol [ System %tmp.21 50 24 30 ];
+        %tmp.21 = getm $.Toybox.System;
+        symbol [ getClockTime %tmp.22 50 31 43 ];
+        %tmp.22 = getv function %tmp.21 :getClockTime;
+        %tmp.23 = invoke %tmp.21 %tmp.22();
+        lputv %clockTime.5 %tmp.23;
+        symbol [ clockTime %clockTime.5 50 12 21 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 51 8 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_stop" ]
+        %hour.6 = local;
+        symbol [ hour %hour.6 51 12 16 ];
+        %tmp.24 = lgetv %clockTime.5;
+        symbol [ clockTime %tmp.24 51 19 28 ];
+        symbol [ hour %tmp.25 51 29 33 ];
+        %tmp.25 = getv %tmp.24 :hour;
+        lputv %hour.6 %tmp.25;
+        symbol [ hour %hour.6 51 12 16 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 52 8 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_stop" ]
+        %minute.7 = local;
+        symbol [ minute %minute.7 52 12 18 ];
+        %tmp.26 = lgetv %clockTime.5;
+        symbol [ clockTime %tmp.26 52 21 30 ];
+        symbol [ min %tmp.27 52 31 34 ];
+        %tmp.27 = getv %tmp.26 :min;
+        lputv %minute.7 %tmp.27;
+        symbol [ minute %minute.7 52 12 18 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 53 8 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_stop" ]
+        %second.8 = local;
+        symbol [ second %second.8 53 12 18 ];
+        %tmp.28 = lgetv %clockTime.5;
+        symbol [ clockTime %tmp.28 53 21 30 ];
+        symbol [ sec %tmp.29 53 31 34 ];
+        %tmp.29 = getv %tmp.28 :sec;
+        lputv %second.8 %tmp.29;
+        symbol [ second %second.8 53 12 18 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 56 8 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_stop" ]
+        %now.9 = local;
+        symbol [ now %now.9 56 12 15 ];
+        symbol [ Time %tmp.30 56 18 22 ];
+        %tmp.30 = getm $.Toybox.Time;
+        symbol [ now %tmp.31 56 23 26 ];
+        %tmp.31 = getv function %tmp.30 :now;
+        %tmp.32 = invoke %tmp.30 %tmp.31();
+        lputv %now.9 %tmp.32;
+        symbol [ now %now.9 56 12 15 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 57 8 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_stop" ]
+        %info.10 = local;
+        symbol [ info %info.10 57 12 16 ];
+        symbol [ Gregorian %tmp.33 57 19 28 ];
+        %tmp.33 = getm $.Toybox.Time.Gregorian;
+        symbol [ info %tmp.34 57 29 33 ];
+        %tmp.34 = getv function %tmp.33 :info;
+        %tmp.35 = lgetv %now.9;
+        symbol [ now %tmp.35 57 34 37 ];
+        symbol [ Time %tmp.36 57 39 43 ];
+        %tmp.36 = getm $.Toybox.Time;
+        symbol [ FORMAT_MEDIUM %tmp.37 57 44 57 ];
+        %tmp.37 = getv %tmp.36 :FORMAT_MEDIUM;
+        %tmp.38 = invoke %tmp.33 %tmp.34(%tmp.35, %tmp.37);
+        lputv %info.10 %tmp.38;
+        symbol [ info %info.10 57 12 16 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 58 8 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_stop" ]
+        %weekDaysCn.11 = local;
+        symbol [ weekDaysCn %weekDaysCn.11 58 12 22 ];
+        %tmp.39 = newa 7;
+        %tmp.40 = "周日";
+        %tmp.41 = dup %tmp.39;
+        %tmp.42 = aputv %tmp.41 0 %tmp.40;
+        %tmp.43 = "周一";
+        %tmp.44 = dup %tmp.42;
+        %tmp.45 = aputv %tmp.44 1 %tmp.43;
+        %tmp.46 = "周二";
+        %tmp.47 = dup %tmp.45;
+        %tmp.48 = aputv %tmp.47 2 %tmp.46;
+        %tmp.49 = "周三";
+        %tmp.50 = dup %tmp.48;
+        %tmp.51 = aputv %tmp.50 3 %tmp.49;
+        %tmp.52 = "周四";
+        %tmp.53 = dup %tmp.51;
+        %tmp.54 = aputv %tmp.53 4 %tmp.52;
+        %tmp.55 = "周五";
+        %tmp.56 = dup %tmp.54;
+        %tmp.57 = aputv %tmp.56 5 %tmp.55;
+        %tmp.58 = "周六";
+        %tmp.59 = dup %tmp.57;
+        %tmp.60 = aputv %tmp.59 6 %tmp.58;
+        lputv %weekDaysCn.11 %tmp.60;
+        symbol [ weekDaysCn %weekDaysCn.11 58 12 22 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 59 8 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_stop" ]
+        %dow.12 = local;
+        symbol [ dow %dow.12 59 12 15 ];
+        %tmp.61 = 1;
+        lputv %dow.12 %tmp.61;
+        symbol [ dow %dow.12 59 12 15 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 60 8 ]
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_60_8_69_8_if_stmt:
+        %tmp.62 = lgetv %info.10;
+        symbol [ info %tmp.62 60 12 16 ];
+        symbol [ day_of_week %tmp.63 60 17 28 ];
+        %tmp.63 = getv %tmp.62 :day_of_week;
+        %tmp.64 = null;
+        %tmp.65 = ne %tmp.63 %tmp.64;
+        bf %tmp.65 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_60_8_69_8_if_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_60_8_69_8_if_true:
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_60_38_69_8_start:
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 61 12 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_60_38_69_8_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_60_38_69_8_stop" ]
+        %rawDow.13 = local;
+        symbol [ rawDow %rawDow.13 61 16 22 ];
+        %tmp.66 = lgetv %info.10;
+        symbol [ info %tmp.66 61 25 29 ];
+        symbol [ day_of_week %tmp.67 61 30 41 ];
+        %tmp.67 = getv %tmp.66 :day_of_week;
+        lputv %rawDow.13 %tmp.67;
+        symbol [ rawDow %rawDow.13 61 16 22 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 62 12 ]
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_62_12_68_12_if_stmt:
+        %tmp.68 = lgetv %rawDow.13;
+        symbol [ rawDow %tmp.68 62 16 22 ];
+        symbol [ Lang %tmp.69 62 34 38 ];
+        %tmp.69 = getm $.Toybox.Lang;
+        symbol [ Number %tmp.70 62 39 45 ];
+        %tmp.70 = getv %tmp.69 :Number;
+        %tmp.71 = isa %tmp.68 %tmp.70;
+        bf %tmp.71 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_62_12_68_12_if_false;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_62_12_68_12_if_true:
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_62_47_64_12_start:
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 63 16 ]
+        %tmp.72 = lgetv %rawDow.13;
+        symbol [ rawDow %tmp.72 63 22 28 ];
+        %tmp.73 = as %tmp.72 { (Lang.Number) };
+        lputv %dow.12 %tmp.73;
+        symbol [ dow %dow.12 63 16 19 ];
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_62_47_64_12_stop:
+        goto @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_62_12_68_12_if_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_62_12_68_12_if_false:
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 64 19 ]
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_64_19_68_12_if_stmt:
+        %tmp.74 = lgetv %rawDow.13;
+        symbol [ rawDow %tmp.74 64 23 29 ];
+        %tmp.75 = as %tmp.74 { (!Lang.Number) };
+        symbol [ Lang %tmp.76 64 41 45 ];
+        %tmp.76 = getm $.Toybox.Lang;
+        symbol [ String %tmp.77 64 46 52 ];
+        %tmp.77 = getv %tmp.76 :String;
+        %tmp.78 = isa %tmp.75 %tmp.77;
+        bf %tmp.78 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_64_19_68_12_if_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_64_19_68_12_if_true:
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_64_54_68_12_start:
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 66 16 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_64_54_68_12_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_64_54_68_12_stop" ]
+        %s.14 = local;
+        symbol [ s %s.14 66 20 21 ];
+        %tmp.79 = lgetv %rawDow.13;
+        symbol [ rawDow %tmp.79 66 24 30 ];
+        %tmp.80 = as %tmp.79 { (Lang.String) && (!Lang.Number) };
+        symbol [ toString %tmp.81 66 31 39 ];
+        %tmp.81 = getv function %tmp.80 :toString;
+        %tmp.82 = invoke %tmp.80 %tmp.81();
+        lputv %s.14 %tmp.82;
+        symbol [ s %s.14 66 20 21 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 67 16 ]
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_67_16_67_58_if_stmt:
+        %tmp.83 = lgetv %s.14;
+        symbol [ s %tmp.83 67 20 21 ];
+        symbol [ length %tmp.84 67 22 28 ];
+        %tmp.84 = getv function %tmp.83 :length;
+        %tmp.85 = invoke %tmp.83 %tmp.84();
+        %tmp.86 = 0;
+        %tmp.87 = gt %tmp.85 %tmp.86;
+        bf %tmp.87 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_67_16_67_58_if_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_67_16_67_58_if_true:
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_67_36_67_58_start:
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 67 38 ]
+        %tmp.88 = lgetv %s.14;
+        symbol [ s %tmp.88 67 44 45 ];
+        symbol [ toNumber %tmp.89 67 46 54 ];
+        %tmp.89 = getv function %tmp.88 :toNumber;
+        %tmp.90 = invoke %tmp.88 %tmp.89();
+        lputv %dow.12 %tmp.90;
+        symbol [ dow %dow.12 67 38 41 ];
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_67_36_67_58_stop:
+        goto @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_67_16_67_58_if_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_67_16_67_58_if_end:
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_64_54_68_12_stop:
+        goto @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_64_19_68_12_if_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_64_19_68_12_if_end:
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_62_12_68_12_if_end:
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_60_38_69_8_stop:
+        goto @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_60_8_69_8_if_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_60_8_69_8_if_end:
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 70 8 ]
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_70_8_70_32_if_stmt:
+        %tmp.91 = lgetv %dow.12;
+        symbol [ dow %tmp.91 70 12 15 ];
+        %tmp.92 = 7;
+        %tmp.93 = gt %tmp.91 %tmp.92;
+        bf %tmp.93 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_70_8_70_32_if_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_70_8_70_32_if_true:
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_70_21_70_32_start:
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 70 23 ]
+        %tmp.94 = 1;
+        lputv %dow.12 %tmp.94;
+        symbol [ dow %dow.12 70 23 26 ];
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_70_21_70_32_stop:
+        goto @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_70_8_70_32_if_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_70_8_70_32_if_end:
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 71 8 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_stop" ]
+        %dateWeekStr.15 = local;
+        symbol [ dateWeekStr %dateWeekStr.15 71 12 23 ];
+        symbol [ Lang %tmp.95 71 26 30 ];
+        %tmp.95 = getm $.Toybox.Lang;
+        symbol [ format %tmp.96 71 31 37 ];
+        %tmp.96 = getv function %tmp.95 :format;
+        %tmp.97 = "$1$月$2$日 $3$";
+        %tmp.98 = newa 3;
+        %tmp.99 = lgetv %info.10;
+        symbol [ info %tmp.99 72 13 17 ];
+        symbol [ month %tmp.100 72 18 23 ];
+        %tmp.100 = getv %tmp.99 :month;
+        symbol [ format %tmp.101 72 24 30 ];
+        %tmp.101 = getv function %tmp.100 :format;
+        %tmp.102 = "%d";
+        %tmp.103 = invoke %tmp.100 %tmp.101(%tmp.102);
+        %tmp.104 = dup %tmp.98;
+        %tmp.105 = aputv %tmp.104 0 %tmp.103;
+        %tmp.106 = lgetv %info.10;
+        symbol [ info %tmp.106 72 38 42 ];
+        symbol [ day %tmp.107 72 43 46 ];
+        %tmp.107 = getv %tmp.106 :day;
+        symbol [ format %tmp.108 72 47 53 ];
+        %tmp.108 = getv function %tmp.107 :format;
+        %tmp.109 = "%d";
+        %tmp.110 = invoke %tmp.107 %tmp.108(%tmp.109);
+        %tmp.111 = dup %tmp.105;
+        %tmp.112 = aputv %tmp.111 1 %tmp.110;
+        %tmp.113 = lgetv %weekDaysCn.11;
+        symbol [ weekDaysCn %tmp.113 73 13 23 ];
+        %tmp.114 = lgetv %dow.12;
+        symbol [ dow %tmp.114 73 24 27 ];
+        %tmp.115 = 1;
+        %tmp.116 = sub %tmp.114 %tmp.115;
+        %tmp.117 = agetv %tmp.113 %tmp.116;
+        %tmp.118 = dup %tmp.112;
+        %tmp.119 = aputv %tmp.118 2 %tmp.117;
+        %tmp.120 = invoke %tmp.95 %tmp.96(%tmp.97, %tmp.119);
+        lputv %dateWeekStr.15 %tmp.120;
+        symbol [ dateWeekStr %dateWeekStr.15 71 12 23 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 76 8 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_stop" ]
+        %stats.16 = local;
+        symbol [ stats %stats.16 76 12 17 ];
+        symbol [ System %tmp.121 76 20 26 ];
+        %tmp.121 = getm $.Toybox.System;
+        symbol [ getSystemStats %tmp.122 76 27 41 ];
+        %tmp.122 = getv function %tmp.121 :getSystemStats;
+        %tmp.123 = invoke %tmp.121 %tmp.122();
+        lputv %stats.16 %tmp.123;
+        symbol [ stats %stats.16 76 12 17 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 77 8 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_stop" ]
+        %battery.17 = local;
+        symbol [ battery %battery.17 77 12 19 ];
+        %tmp.124 = lgetv %stats.16;
+        symbol [ stats %tmp.124 77 22 27 ];
+        symbol [ battery %tmp.125 77 28 35 ];
+        %tmp.125 = getv %tmp.124 :battery;
+        lputv %battery.17 %tmp.125;
+        symbol [ battery %battery.17 77 12 19 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 78 8 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_stop" ]
+        %stepsInfo.18 = local;
+        symbol [ stepsInfo %stepsInfo.18 78 12 21 ];
+        symbol [ ActivityMonitor %tmp.126 78 24 39 ];
+        %tmp.126 = getm $.Toybox.ActivityMonitor;
+        symbol [ getInfo %tmp.127 78 40 47 ];
+        %tmp.127 = getv function %tmp.126 :getInfo;
+        %tmp.128 = invoke %tmp.126 %tmp.127();
+        lputv %stepsInfo.18 %tmp.128;
+        symbol [ stepsInfo %stepsInfo.18 78 12 21 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 79 8 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_stop" ]
+        %stepVal.19 = local;
+        symbol [ stepVal %stepVal.19 79 12 19 ];
+        %tmp.129 = 0;
+        lputv %stepVal.19 %tmp.129;
+        symbol [ stepVal %stepVal.19 79 12 19 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 80 8 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_stop" ]
+        %goalVal.20 = local;
+        symbol [ goalVal %goalVal.20 80 12 19 ];
+        %tmp.130 = 10000;
+        lputv %goalVal.20 %tmp.130;
+        symbol [ goalVal %goalVal.20 80 12 19 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 81 8 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_stop" ]
+        %calVal.21 = local;
+        symbol [ calVal %calVal.21 81 12 18 ];
+        %tmp.131 = 0;
+        lputv %calVal.21 %tmp.131;
+        symbol [ calVal %calVal.21 81 12 18 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 82 8 ]
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_82_8_86_8_if_stmt:
+        %tmp.132 = lgetv %stepsInfo.18;
+        symbol [ stepsInfo %tmp.132 82 12 21 ];
+        %tmp.133 = null;
+        %tmp.134 = ne %tmp.132 %tmp.133;
+        bf %tmp.134 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_82_8_86_8_if_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_82_8_86_8_if_true:
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_82_31_86_8_start:
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 83 12 ]
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_83_12_83_70_if_stmt:
+        %tmp.135 = lgetv %stepsInfo.18;
+        symbol [ stepsInfo %tmp.135 83 16 25 ];
+        %tmp.136 = as %tmp.135 { (!Null) };
+        symbol [ steps %tmp.137 83 26 31 ];
+        %tmp.137 = getv %tmp.136 :steps;
+        %tmp.138 = null;
+        %tmp.139 = ne %tmp.137 %tmp.138;
+        bf %tmp.139 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_83_12_83_70_if_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_83_12_83_70_if_true:
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_83_41_83_70_start:
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 83 43 ]
+        %tmp.140 = lgetv %stepsInfo.18;
+        symbol [ stepsInfo %tmp.140 83 53 62 ];
+        %tmp.141 = as %tmp.140 { (!Null) };
+        symbol [ steps %tmp.142 83 63 68 ];
+        %tmp.142 = getv %tmp.141 :steps;
+        lputv %stepVal.19 %tmp.142;
+        symbol [ stepVal %stepVal.19 83 43 50 ];
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_83_41_83_70_stop:
+        goto @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_83_12_83_70_if_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_83_12_83_70_if_end:
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 84 12 ]
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_84_12_84_102_if_stmt:
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_84_16_84_67_begin:
+        %tmp.143 = lgetv %stepsInfo.18;
+        symbol [ stepsInfo %tmp.143 84 16 25 ];
+        %tmp.144 = as %tmp.143 { (!Null) };
+        symbol [ stepGoal %tmp.145 84 26 34 ];
+        %tmp.145 = getv %tmp.144 :stepGoal;
+        %tmp.146 = null;
+        %tmp.147 = ne %tmp.145 %tmp.146;
+        bf %tmp.147 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_84_12_84_102_if_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_84_46_84_67_true:
+        %tmp.148 = lgetv %stepsInfo.18;
+        symbol [ stepsInfo %tmp.148 84 46 55 ];
+        %tmp.149 = as %tmp.148 { (!Null) };
+        symbol [ stepGoal %tmp.150 84 56 64 ];
+        %tmp.150 = getv %tmp.149 :stepGoal;
+        %tmp.151 = 0;
+        %tmp.152 = gt %tmp.150 %tmp.151;
+        push %tmp.152;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_84_46_84_67_end:
+        %tmp.153 = phi [%tmp.147 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_84_16_84_67_begin] [%tmp.152 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_84_46_84_67_true] [%tmp.153 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_84_46_84_67_end];
+        bf %tmp.153 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_84_12_84_102_if_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_84_12_84_102_if_true:
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_84_70_84_102_start:
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 84 72 ]
+        %tmp.154 = lgetv %stepsInfo.18;
+        symbol [ stepsInfo %tmp.154 84 82 91 ];
+        %tmp.155 = as %tmp.154 { (!Null) };
+        symbol [ stepGoal %tmp.156 84 92 100 ];
+        %tmp.156 = getv %tmp.155 :stepGoal;
+        lputv %goalVal.20 %tmp.156;
+        symbol [ goalVal %goalVal.20 84 72 79 ];
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_84_70_84_102_stop:
+        goto @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_84_12_84_102_if_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_84_12_84_102_if_end:
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 85 12 ]
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_85_12_85_75_if_stmt:
+        %tmp.157 = lgetv %stepsInfo.18;
+        symbol [ stepsInfo %tmp.157 85 16 25 ];
+        %tmp.158 = as %tmp.157 { (!Null) };
+        symbol [ calories %tmp.159 85 26 34 ];
+        %tmp.159 = getv %tmp.158 :calories;
+        %tmp.160 = null;
+        %tmp.161 = ne %tmp.159 %tmp.160;
+        bf %tmp.161 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_85_12_85_75_if_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_85_12_85_75_if_true:
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_85_44_85_75_start:
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 85 46 ]
+        %tmp.162 = lgetv %stepsInfo.18;
+        symbol [ stepsInfo %tmp.162 85 55 64 ];
+        %tmp.163 = as %tmp.162 { (!Null) };
+        symbol [ calories %tmp.164 85 65 73 ];
+        %tmp.164 = getv %tmp.163 :calories;
+        lputv %calVal.21 %tmp.164;
+        symbol [ calVal %calVal.21 85 46 52 ];
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_85_44_85_75_stop:
+        goto @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_85_12_85_75_if_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_85_12_85_75_if_end:
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_82_31_86_8_stop:
+        goto @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_82_8_86_8_if_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_82_8_86_8_if_end:
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 89 8 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_stop" ]
+        %hr.22 = local;
+        symbol [ hr %hr.22 89 12 14 ];
+        %tmp.165 = self;
+        symbol [ getHeartRate %tmp.166 89 17 29 ];
+        %tmp.166 = getv function %tmp.165 :getHeartRate;
+        %tmp.167 = invoke %tmp.165 %tmp.166();
+        lputv %hr.22 %tmp.167;
+        symbol [ hr %hr.22 89 12 14 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 94 8 ]
+        %tmp.168 = lgetv %dc;
+        symbol [ dc %tmp.168 94 8 10 ];
+        symbol [ setColor %tmp.169 94 11 19 ];
+        %tmp.169 = getv function %tmp.168 :setColor;
+        symbol [ COLOR_ACCENT %tmp.171 94 20 32 ];
+        %tmp.171 = getv ? :COLOR_ACCENT;
+        symbol [ Graphics %tmp.172 94 34 42 ];
+        %tmp.172 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.173 94 43 54 ];
+        %tmp.173 = getv %tmp.172 :COLOR_BLACK;
+        invoke %tmp.168 %tmp.169(%tmp.171, %tmp.173);
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 95 8 ]
+        %tmp.174 = lgetv %dc;
+        symbol [ dc %tmp.174 95 8 10 ];
+        symbol [ drawLine %tmp.175 95 11 19 ];
+        %tmp.175 = getv function %tmp.174 :drawLine;
+        %tmp.176 = lgetv %cx.3;
+        symbol [ cx %tmp.176 95 20 22 ];
+        %tmp.177 = 140;
+        %tmp.178 = sub %tmp.176 %tmp.177;
+        %tmp.179 = 38;
+        %tmp.180 = lgetv %cx.3;
+        symbol [ cx %tmp.180 95 34 36 ];
+        %tmp.181 = 140;
+        %tmp.182 = add %tmp.180 %tmp.181;
+        %tmp.183 = 38;
+        invoke %tmp.174 %tmp.175(%tmp.178, %tmp.179, %tmp.182, %tmp.183);
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 98 8 ]
+        %tmp.184 = lgetv %dc;
+        symbol [ dc %tmp.184 98 8 10 ];
+        symbol [ setColor %tmp.185 98 11 19 ];
+        %tmp.185 = getv function %tmp.184 :setColor;
+        %tmp.186 = 0xAAAAAA;
+        symbol [ Graphics %tmp.187 98 30 38 ];
+        %tmp.187 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.188 98 39 50 ];
+        %tmp.188 = getv %tmp.187 :COLOR_BLACK;
+        invoke %tmp.184 %tmp.185(%tmp.186, %tmp.188);
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 99 8 ]
+        %tmp.189 = lgetv %dc;
+        symbol [ dc %tmp.189 99 8 10 ];
+        symbol [ drawText %tmp.190 99 11 19 ];
+        %tmp.190 = getv function %tmp.189 :drawText;
+        %tmp.191 = lgetv %cx.3;
+        symbol [ cx %tmp.191 99 20 22 ];
+        %tmp.192 = 60;
+        symbol [ Graphics %tmp.193 99 28 36 ];
+        %tmp.193 = getm $.Toybox.Graphics;
+        symbol [ FONT_TINY %tmp.194 99 37 46 ];
+        %tmp.194 = getv %tmp.193 :FONT_TINY;
+        %tmp.195 = lgetv %dateWeekStr.15;
+        symbol [ dateWeekStr %tmp.195 99 48 59 ];
+        symbol [ Graphics %tmp.196 99 61 69 ];
+        %tmp.196 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.197 99 70 89 ];
+        %tmp.197 = getv %tmp.196 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.189 %tmp.190(%tmp.191, %tmp.192, %tmp.194, %tmp.195, %tmp.197);
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 102 8 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_stop" ]
+        %timeStr.23 = local;
+        symbol [ timeStr %timeStr.23 102 12 19 ];
+        symbol [ Lang %tmp.198 102 22 26 ];
+        %tmp.198 = getm $.Toybox.Lang;
+        symbol [ format %tmp.199 102 27 33 ];
+        %tmp.199 = getv function %tmp.198 :format;
+        %tmp.200 = "$1$:$2$";
+        %tmp.201 = newa 2;
+        %tmp.202 = lgetv %hour.6;
+        symbol [ hour %tmp.202 102 46 50 ];
+        symbol [ format %tmp.203 102 51 57 ];
+        %tmp.203 = getv function %tmp.202 :format;
+        %tmp.204 = "%02d";
+        %tmp.205 = invoke %tmp.202 %tmp.203(%tmp.204);
+        %tmp.206 = dup %tmp.201;
+        %tmp.207 = aputv %tmp.206 0 %tmp.205;
+        %tmp.208 = lgetv %minute.7;
+        symbol [ minute %tmp.208 102 67 73 ];
+        symbol [ format %tmp.209 102 74 80 ];
+        %tmp.209 = getv function %tmp.208 :format;
+        %tmp.210 = "%02d";
+        %tmp.211 = invoke %tmp.208 %tmp.209(%tmp.210);
+        %tmp.212 = dup %tmp.207;
+        %tmp.213 = aputv %tmp.212 1 %tmp.211;
+        %tmp.214 = invoke %tmp.198 %tmp.199(%tmp.200, %tmp.213);
+        lputv %timeStr.23 %tmp.214;
+        symbol [ timeStr %timeStr.23 102 12 19 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 103 8 ]
+        %tmp.215 = lgetv %dc;
+        symbol [ dc %tmp.215 103 8 10 ];
+        symbol [ setColor %tmp.216 103 11 19 ];
+        %tmp.216 = getv function %tmp.215 :setColor;
+        symbol [ Graphics %tmp.217 103 20 28 ];
+        %tmp.217 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.218 103 29 40 ];
+        %tmp.218 = getv %tmp.217 :COLOR_WHITE;
+        symbol [ Graphics %tmp.219 103 42 50 ];
+        %tmp.219 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.220 103 51 62 ];
+        %tmp.220 = getv %tmp.219 :COLOR_BLACK;
+        invoke %tmp.215 %tmp.216(%tmp.218, %tmp.220);
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 104 8 ]
+        %tmp.221 = lgetv %dc;
+        symbol [ dc %tmp.221 104 8 10 ];
+        symbol [ drawText %tmp.222 104 11 19 ];
+        %tmp.222 = getv function %tmp.221 :drawText;
+        %tmp.223 = lgetv %cx.3;
+        symbol [ cx %tmp.223 104 20 22 ];
+        %tmp.224 = lgetv %cy.4;
+        symbol [ cy %tmp.224 104 24 26 ];
+        %tmp.225 = 25;
+        %tmp.226 = sub %tmp.224 %tmp.225;
+        symbol [ Graphics %tmp.227 104 33 41 ];
+        %tmp.227 = getm $.Toybox.Graphics;
+        symbol [ FONT_LARGE %tmp.228 104 42 52 ];
+        %tmp.228 = getv %tmp.227 :FONT_LARGE;
+        %tmp.229 = lgetv %timeStr.23;
+        symbol [ timeStr %tmp.229 104 54 61 ];
+        symbol [ Graphics %tmp.230 104 63 71 ];
+        %tmp.230 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.231 104 72 91 ];
+        %tmp.231 = getv %tmp.230 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.221 %tmp.222(%tmp.223, %tmp.226, %tmp.228, %tmp.229, %tmp.231);
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 107 8 ]
+        %tmp.232 = lgetv %dc;
+        symbol [ dc %tmp.232 107 8 10 ];
+        symbol [ setColor %tmp.233 107 11 19 ];
+        %tmp.233 = getv function %tmp.232 :setColor;
+        symbol [ COLOR_ACCENT %tmp.235 107 20 32 ];
+        %tmp.235 = getv ? :COLOR_ACCENT;
+        symbol [ Graphics %tmp.236 107 34 42 ];
+        %tmp.236 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.237 107 43 54 ];
+        %tmp.237 = getv %tmp.236 :COLOR_BLACK;
+        invoke %tmp.232 %tmp.233(%tmp.235, %tmp.237);
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 108 8 ]
+        %tmp.238 = lgetv %dc;
+        symbol [ dc %tmp.238 108 8 10 ];
+        symbol [ drawText %tmp.239 108 11 19 ];
+        %tmp.239 = getv function %tmp.238 :drawText;
+        %tmp.240 = lgetv %cx.3;
+        symbol [ cx %tmp.240 108 20 22 ];
+        %tmp.241 = 72;
+        %tmp.242 = add %tmp.240 %tmp.241;
+        %tmp.243 = lgetv %cy.4;
+        symbol [ cy %tmp.243 108 29 31 ];
+        %tmp.244 = 62;
+        %tmp.245 = sub %tmp.243 %tmp.244;
+        symbol [ Graphics %tmp.246 108 38 46 ];
+        %tmp.246 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.247 108 47 57 ];
+        %tmp.247 = getv %tmp.246 :FONT_SMALL;
+        %tmp.248 = lgetv %second.8;
+        symbol [ second %tmp.248 108 59 65 ];
+        symbol [ format %tmp.249 108 66 72 ];
+        %tmp.249 = getv function %tmp.248 :format;
+        %tmp.250 = "%02d";
+        %tmp.251 = invoke %tmp.248 %tmp.249(%tmp.250);
+        symbol [ Graphics %tmp.252 108 82 90 ];
+        %tmp.252 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.253 108 91 110 ];
+        %tmp.253 = getv %tmp.252 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.238 %tmp.239(%tmp.242, %tmp.245, %tmp.247, %tmp.251, %tmp.253);
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 111 8 ]
+        %tmp.254 = lgetv %dc;
+        symbol [ dc %tmp.254 111 8 10 ];
+        symbol [ setColor %tmp.255 111 11 19 ];
+        %tmp.255 = getv function %tmp.254 :setColor;
+        symbol [ Graphics %tmp.256 111 20 28 ];
+        %tmp.256 = getm $.Toybox.Graphics;
+        symbol [ COLOR_DK_GRAY %tmp.257 111 29 42 ];
+        %tmp.257 = getv %tmp.256 :COLOR_DK_GRAY;
+        symbol [ Graphics %tmp.258 111 44 52 ];
+        %tmp.258 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.259 111 53 64 ];
+        %tmp.259 = getv %tmp.258 :COLOR_BLACK;
+        invoke %tmp.254 %tmp.255(%tmp.257, %tmp.259);
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 112 8 ]
+        %tmp.260 = lgetv %dc;
+        symbol [ dc %tmp.260 112 8 10 ];
+        symbol [ drawLine %tmp.261 112 11 19 ];
+        %tmp.261 = getv function %tmp.260 :drawLine;
+        %tmp.262 = lgetv %cx.3;
+        symbol [ cx %tmp.262 112 20 22 ];
+        %tmp.263 = 140;
+        %tmp.264 = sub %tmp.262 %tmp.263;
+        %tmp.265 = lgetv %h.2;
+        symbol [ h %tmp.265 112 30 31 ];
+        %tmp.266 = 88;
+        %tmp.267 = sub %tmp.265 %tmp.266;
+        %tmp.268 = lgetv %cx.3;
+        symbol [ cx %tmp.268 112 38 40 ];
+        %tmp.269 = 140;
+        %tmp.270 = add %tmp.268 %tmp.269;
+        %tmp.271 = lgetv %h.2;
+        symbol [ h %tmp.271 112 48 49 ];
+        %tmp.272 = 88;
+        %tmp.273 = sub %tmp.271 %tmp.272;
+        invoke %tmp.260 %tmp.261(%tmp.264, %tmp.267, %tmp.270, %tmp.273);
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 115 8 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_stop" ]
+        %colL.24 = local;
+        symbol [ colL %colL.24 115 12 16 ];
+        %tmp.274 = lgetv %cx.3;
+        symbol [ cx %tmp.274 115 19 21 ];
+        %tmp.275 = 160;
+        %tmp.276 = sub %tmp.274 %tmp.275;
+        lputv %colL.24 %tmp.276;
+        symbol [ colL %colL.24 115 12 16 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 116 8 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_stop" ]
+        %colC.25 = local;
+        symbol [ colC %colC.25 116 12 16 ];
+        %tmp.277 = lgetv %cx.3;
+        symbol [ cx %tmp.277 116 19 21 ];
+        lputv %colC.25 %tmp.277;
+        symbol [ colC %colC.25 116 12 16 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 117 8 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_stop" ]
+        %colR.26 = local;
+        symbol [ colR %colR.26 117 12 16 ];
+        %tmp.278 = lgetv %cx.3;
+        symbol [ cx %tmp.278 117 19 21 ];
+        %tmp.279 = 160;
+        %tmp.280 = add %tmp.278 %tmp.279;
+        lputv %colR.26 %tmp.280;
+        symbol [ colR %colR.26 117 12 16 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 120 8 ]
+        %tmp.281 = lgetv %dc;
+        symbol [ dc %tmp.281 120 8 10 ];
+        symbol [ setColor %tmp.282 120 11 19 ];
+        %tmp.282 = getv function %tmp.281 :setColor;
+        symbol [ COLOR_ACCENT %tmp.284 120 20 32 ];
+        %tmp.284 = getv ? :COLOR_ACCENT;
+        symbol [ Graphics %tmp.285 120 34 42 ];
+        %tmp.285 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.286 120 43 54 ];
+        %tmp.286 = getv %tmp.285 :COLOR_BLACK;
+        invoke %tmp.281 %tmp.282(%tmp.284, %tmp.286);
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 121 8 ]
+        %tmp.287 = lgetv %dc;
+        symbol [ dc %tmp.287 121 8 10 ];
+        symbol [ drawText %tmp.288 121 11 19 ];
+        %tmp.288 = getv function %tmp.287 :drawText;
+        %tmp.289 = lgetv %colL.24;
+        symbol [ colL %tmp.289 121 20 24 ];
+        %tmp.290 = lgetv %h.2;
+        symbol [ h %tmp.290 121 26 27 ];
+        %tmp.291 = 74;
+        %tmp.292 = sub %tmp.290 %tmp.291;
+        symbol [ Graphics %tmp.293 121 34 42 ];
+        %tmp.293 = getm $.Toybox.Graphics;
+        symbol [ FONT_TINY %tmp.294 121 43 52 ];
+        %tmp.294 = getv %tmp.293 :FONT_TINY;
+        %tmp.295 = "步数";
+        symbol [ Graphics %tmp.296 121 60 68 ];
+        %tmp.296 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.297 121 69 88 ];
+        %tmp.297 = getv %tmp.296 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.287 %tmp.288(%tmp.289, %tmp.292, %tmp.294, %tmp.295, %tmp.297);
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 122 8 ]
+        %tmp.298 = lgetv %dc;
+        symbol [ dc %tmp.298 122 8 10 ];
+        symbol [ setColor %tmp.299 122 11 19 ];
+        %tmp.299 = getv function %tmp.298 :setColor;
+        symbol [ Graphics %tmp.300 122 20 28 ];
+        %tmp.300 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.301 122 29 40 ];
+        %tmp.301 = getv %tmp.300 :COLOR_WHITE;
+        symbol [ Graphics %tmp.302 122 42 50 ];
+        %tmp.302 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.303 122 51 62 ];
+        %tmp.303 = getv %tmp.302 :COLOR_BLACK;
+        invoke %tmp.298 %tmp.299(%tmp.301, %tmp.303);
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 123 8 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_stop" ]
+        %stepK.27 = local;
+        symbol [ stepK %stepK.27 123 12 17 ];
+        %tmp.304 = lgetv %stepVal.19;
+        symbol [ stepVal %tmp.304 123 21 28 ];
+        symbol [ toFloat %tmp.305 123 29 36 ];
+        %tmp.305 = getv function %tmp.304 :toFloat;
+        %tmp.306 = invoke %tmp.304 %tmp.305();
+        %tmp.307 = 1000.0;
+        %tmp.308 = div %tmp.306 %tmp.307;
+        symbol [ format %tmp.309 123 49 55 ];
+        %tmp.309 = getv function %tmp.308 :format;
+        %tmp.310 = "%.1f";
+        %tmp.311 = invoke %tmp.308 %tmp.309(%tmp.310);
+        %tmp.312 = "k";
+        %tmp.313 = add %tmp.311 %tmp.312;
+        lputv %stepK.27 %tmp.313;
+        symbol [ stepK %stepK.27 123 12 17 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 124 8 ]
+        %tmp.314 = lgetv %dc;
+        symbol [ dc %tmp.314 124 8 10 ];
+        symbol [ drawText %tmp.315 124 11 19 ];
+        %tmp.315 = getv function %tmp.314 :drawText;
+        %tmp.316 = lgetv %colL.24;
+        symbol [ colL %tmp.316 124 20 24 ];
+        %tmp.317 = lgetv %h.2;
+        symbol [ h %tmp.317 124 26 27 ];
+        %tmp.318 = 52;
+        %tmp.319 = sub %tmp.317 %tmp.318;
+        symbol [ Graphics %tmp.320 124 34 42 ];
+        %tmp.320 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.321 124 43 53 ];
+        %tmp.321 = getv %tmp.320 :FONT_SMALL;
+        %tmp.322 = lgetv %stepK.27;
+        symbol [ stepK %tmp.322 124 55 60 ];
+        symbol [ Graphics %tmp.323 124 62 70 ];
+        %tmp.323 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.324 124 71 90 ];
+        %tmp.324 = getv %tmp.323 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.314 %tmp.315(%tmp.316, %tmp.319, %tmp.321, %tmp.322, %tmp.324);
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 127 8 ]
+        %tmp.325 = lgetv %dc;
+        symbol [ dc %tmp.325 127 8 10 ];
+        symbol [ setColor %tmp.326 127 11 19 ];
+        %tmp.326 = getv function %tmp.325 :setColor;
+        symbol [ COLOR_ACCENT %tmp.328 127 20 32 ];
+        %tmp.328 = getv ? :COLOR_ACCENT;
+        symbol [ Graphics %tmp.329 127 34 42 ];
+        %tmp.329 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.330 127 43 54 ];
+        %tmp.330 = getv %tmp.329 :COLOR_BLACK;
+        invoke %tmp.325 %tmp.326(%tmp.328, %tmp.330);
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 128 8 ]
+        %tmp.331 = lgetv %dc;
+        symbol [ dc %tmp.331 128 8 10 ];
+        symbol [ drawText %tmp.332 128 11 19 ];
+        %tmp.332 = getv function %tmp.331 :drawText;
+        %tmp.333 = lgetv %colC.25;
+        symbol [ colC %tmp.333 128 20 24 ];
+        %tmp.334 = lgetv %h.2;
+        symbol [ h %tmp.334 128 26 27 ];
+        %tmp.335 = 74;
+        %tmp.336 = sub %tmp.334 %tmp.335;
+        symbol [ Graphics %tmp.337 128 34 42 ];
+        %tmp.337 = getm $.Toybox.Graphics;
+        symbol [ FONT_TINY %tmp.338 128 43 52 ];
+        %tmp.338 = getv %tmp.337 :FONT_TINY;
+        %tmp.339 = "心率";
+        symbol [ Graphics %tmp.340 128 60 68 ];
+        %tmp.340 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.341 128 69 88 ];
+        %tmp.341 = getv %tmp.340 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.331 %tmp.332(%tmp.333, %tmp.336, %tmp.338, %tmp.339, %tmp.341);
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 129 8 ]
+        %tmp.342 = lgetv %dc;
+        symbol [ dc %tmp.342 129 8 10 ];
+        symbol [ setColor %tmp.343 129 11 19 ];
+        %tmp.343 = getv function %tmp.342 :setColor;
+        symbol [ Graphics %tmp.344 129 20 28 ];
+        %tmp.344 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.345 129 29 40 ];
+        %tmp.345 = getv %tmp.344 :COLOR_WHITE;
+        symbol [ Graphics %tmp.346 129 42 50 ];
+        %tmp.346 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.347 129 51 62 ];
+        %tmp.347 = getv %tmp.346 :COLOR_BLACK;
+        invoke %tmp.342 %tmp.343(%tmp.345, %tmp.347);
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 130 8 ]
+        %tmp.348 = lgetv %dc;
+        symbol [ dc %tmp.348 130 8 10 ];
+        symbol [ drawText %tmp.349 130 11 19 ];
+        %tmp.349 = getv function %tmp.348 :drawText;
+        %tmp.350 = lgetv %colC.25;
+        symbol [ colC %tmp.350 130 20 24 ];
+        %tmp.351 = lgetv %h.2;
+        symbol [ h %tmp.351 130 26 27 ];
+        %tmp.352 = 52;
+        %tmp.353 = sub %tmp.351 %tmp.352;
+        symbol [ Graphics %tmp.354 130 34 42 ];
+        %tmp.354 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.355 130 43 53 ];
+        %tmp.355 = getv %tmp.354 :FONT_SMALL;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_131_12_131_71_begin:
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_131_13_131_48_begin:
+        %tmp.356 = lgetv %hr.22;
+        symbol [ hr %tmp.356 131 13 15 ];
+        %tmp.357 = null;
+        %tmp.358 = ne %tmp.356 %tmp.357;
+        bf %tmp.358 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_131_12_131_71_else_false;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_131_27_131_48_true:
+        %tmp.359 = lgetv %hr.22;
+        symbol [ hr %tmp.359 131 28 30 ];
+        %tmp.360 = as %tmp.359 { (!Null) };
+        symbol [ Number %tmp.362 131 42 48 ];
+        %tmp.362 = getv ? :Number;
+        %tmp.363 = isa %tmp.360 %tmp.362;
+        push %tmp.363;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_131_27_131_48_end:
+        %tmp.364 = phi [%tmp.358 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_131_13_131_48_begin] [%tmp.363 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_131_27_131_48_true] [%tmp.364 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_131_27_131_48_end];
+        bf %tmp.364 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_131_12_131_71_else_false;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_131_12_131_71_true:
+        %tmp.365 = lgetv %hr.22;
+        symbol [ hr %tmp.365 131 53 55 ];
+        %tmp.366 = as %tmp.365 { (Number) && (!Null) };
+        symbol [ format %tmp.367 131 56 62 ];
+        %tmp.367 = getv function %tmp.366 :format;
+        %tmp.368 = "%d";
+        %tmp.369 = invoke %tmp.366 %tmp.367(%tmp.368);
+        push %tmp.369;
+        goto @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_131_12_131_71_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_131_12_131_71_else_false:
+        %tmp.370 = "--";
+        push %tmp.370;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_131_12_131_71_end:
+        %tmp.371 = phi [%tmp.364 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_131_12_131_71_begin] [%tmp.369 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_131_12_131_71_true] [%tmp.370 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_131_12_131_71_else_false] [%tmp.371 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_131_12_131_71_end];
+        symbol [ Graphics %tmp.372 131 77 85 ];
+        %tmp.372 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.373 131 86 105 ];
+        %tmp.373 = getv %tmp.372 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.348 %tmp.349(%tmp.350, %tmp.353, %tmp.355, %tmp.371, %tmp.373);
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 134 8 ]
+        %tmp.374 = lgetv %dc;
+        symbol [ dc %tmp.374 134 8 10 ];
+        symbol [ setColor %tmp.375 134 11 19 ];
+        %tmp.375 = getv function %tmp.374 :setColor;
+        symbol [ COLOR_ACCENT %tmp.377 134 20 32 ];
+        %tmp.377 = getv ? :COLOR_ACCENT;
+        symbol [ Graphics %tmp.378 134 34 42 ];
+        %tmp.378 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.379 134 43 54 ];
+        %tmp.379 = getv %tmp.378 :COLOR_BLACK;
+        invoke %tmp.374 %tmp.375(%tmp.377, %tmp.379);
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 135 8 ]
+        %tmp.380 = lgetv %dc;
+        symbol [ dc %tmp.380 135 8 10 ];
+        symbol [ drawText %tmp.381 135 11 19 ];
+        %tmp.381 = getv function %tmp.380 :drawText;
+        %tmp.382 = lgetv %colR.26;
+        symbol [ colR %tmp.382 135 20 24 ];
+        %tmp.383 = lgetv %h.2;
+        symbol [ h %tmp.383 135 26 27 ];
+        %tmp.384 = 74;
+        %tmp.385 = sub %tmp.383 %tmp.384;
+        symbol [ Graphics %tmp.386 135 34 42 ];
+        %tmp.386 = getm $.Toybox.Graphics;
+        symbol [ FONT_TINY %tmp.387 135 43 52 ];
+        %tmp.387 = getv %tmp.386 :FONT_TINY;
+        %tmp.388 = "电量";
+        symbol [ Graphics %tmp.389 135 60 68 ];
+        %tmp.389 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.390 135 69 88 ];
+        %tmp.390 = getv %tmp.389 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.380 %tmp.381(%tmp.382, %tmp.385, %tmp.387, %tmp.388, %tmp.390);
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 136 8 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_stop" ]
+        %batColor.28 = local;
+        symbol [ batColor %batColor.28 136 12 20 ];
+        symbol [ COLOR_OK %tmp.392 136 23 31 ];
+        %tmp.392 = getv ? :COLOR_OK;
+        lputv %batColor.28 %tmp.392;
+        symbol [ batColor %batColor.28 136 12 20 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 137 8 ]
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_137_8_138_54_if_stmt:
+        %tmp.393 = lgetv %battery.17;
+        symbol [ battery %tmp.393 137 12 19 ];
+        %tmp.394 = 20;
+        %tmp.395 = lt %tmp.393 %tmp.394;
+        bf %tmp.395 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_137_8_138_54_if_false;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_137_8_138_54_if_true:
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_137_26_137_51_start:
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 137 28 ]
+        symbol [ COLOR_WARN %tmp.397 137 39 49 ];
+        %tmp.397 = getv ? :COLOR_WARN;
+        lputv %batColor.28 %tmp.397;
+        symbol [ batColor %batColor.28 137 28 36 ];
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_137_26_137_51_stop:
+        goto @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_137_8_138_54_if_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_137_8_138_54_if_false:
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 138 13 ]
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_138_13_138_54_if_stmt:
+        %tmp.398 = lgetv %battery.17;
+        symbol [ battery %tmp.398 138 17 24 ];
+        %tmp.399 = 40;
+        %tmp.400 = lt %tmp.398 %tmp.399;
+        bf %tmp.400 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_138_13_138_54_if_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_138_13_138_54_if_true:
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_138_31_138_54_start:
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 138 33 ]
+        %tmp.401 = 0xFFAA00;
+        lputv %batColor.28 %tmp.401;
+        symbol [ batColor %batColor.28 138 33 41 ];
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_138_31_138_54_stop:
+        goto @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_138_13_138_54_if_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_138_13_138_54_if_end:
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_137_8_138_54_if_end:
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 139 8 ]
+        %tmp.402 = lgetv %dc;
+        symbol [ dc %tmp.402 139 8 10 ];
+        symbol [ setColor %tmp.403 139 11 19 ];
+        %tmp.403 = getv function %tmp.402 :setColor;
+        %tmp.404 = lgetv %batColor.28;
+        symbol [ batColor %tmp.404 139 20 28 ];
+        symbol [ Graphics %tmp.405 139 30 38 ];
+        %tmp.405 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.406 139 39 50 ];
+        %tmp.406 = getv %tmp.405 :COLOR_BLACK;
+        invoke %tmp.402 %tmp.403(%tmp.404, %tmp.406);
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 140 8 ]
+        %tmp.407 = lgetv %dc;
+        symbol [ dc %tmp.407 140 8 10 ];
+        symbol [ drawText %tmp.408 140 11 19 ];
+        %tmp.408 = getv function %tmp.407 :drawText;
+        %tmp.409 = lgetv %colR.26;
+        symbol [ colR %tmp.409 140 20 24 ];
+        %tmp.410 = lgetv %h.2;
+        symbol [ h %tmp.410 140 26 27 ];
+        %tmp.411 = 52;
+        %tmp.412 = sub %tmp.410 %tmp.411;
+        symbol [ Graphics %tmp.413 140 34 42 ];
+        %tmp.413 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.414 140 43 53 ];
+        %tmp.414 = getv %tmp.413 :FONT_SMALL;
+        %tmp.415 = lgetv %battery.17;
+        symbol [ battery %tmp.415 141 12 19 ];
+        symbol [ format %tmp.416 141 20 26 ];
+        %tmp.416 = getv function %tmp.415 :format;
+        %tmp.417 = "%d";
+        %tmp.418 = invoke %tmp.415 %tmp.416(%tmp.417);
+        %tmp.419 = "%";
+        %tmp.420 = add %tmp.418 %tmp.419;
+        symbol [ Graphics %tmp.421 141 40 48 ];
+        %tmp.421 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.422 141 49 68 ];
+        %tmp.422 = getv %tmp.421 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.407 %tmp.408(%tmp.409, %tmp.412, %tmp.414, %tmp.420, %tmp.422);
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 144 8 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_stop" ]
+        %stepPct.29 = local;
+        symbol [ stepPct %stepPct.29 144 12 19 ];
+        %tmp.423 = lgetv %stepVal.19;
+        symbol [ stepVal %tmp.423 144 24 31 ];
+        symbol [ toFloat %tmp.424 144 32 39 ];
+        %tmp.424 = getv function %tmp.423 :toFloat;
+        %tmp.425 = invoke %tmp.423 %tmp.424();
+        %tmp.426 = lgetv %goalVal.20;
+        symbol [ goalVal %tmp.426 144 44 51 ];
+        symbol [ toFloat %tmp.427 144 52 59 ];
+        %tmp.427 = getv function %tmp.426 :toFloat;
+        %tmp.428 = invoke %tmp.426 %tmp.427();
+        %tmp.429 = div %tmp.425 %tmp.428;
+        %tmp.430 = 100;
+        %tmp.431 = mul %tmp.429 %tmp.430;
+        symbol [ toNumber %tmp.432 144 70 78 ];
+        %tmp.432 = getv function %tmp.431 :toNumber;
+        %tmp.433 = invoke %tmp.431 %tmp.432();
+        lputv %stepPct.29 %tmp.433;
+        symbol [ stepPct %stepPct.29 144 12 19 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 145 8 ]
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_145_8_145_44_if_stmt:
+        %tmp.434 = lgetv %stepPct.29;
+        symbol [ stepPct %tmp.434 145 12 19 ];
+        %tmp.435 = 100;
+        %tmp.436 = gt %tmp.434 %tmp.435;
+        bf %tmp.436 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_145_8_145_44_if_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_145_8_145_44_if_true:
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_145_27_145_44_start:
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 145 29 ]
+        %tmp.437 = 100;
+        lputv %stepPct.29 %tmp.437;
+        symbol [ stepPct %stepPct.29 145 29 36 ];
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_145_27_145_44_stop:
+        goto @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_145_8_145_44_if_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_145_8_145_44_if_end:
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 146 8 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_stop" ]
+        %barW.30 = local;
+        symbol [ barW %barW.30 146 12 16 ];
+        %tmp.438 = 240;
+        lputv %barW.30 %tmp.438;
+        symbol [ barW %barW.30 146 12 16 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 147 8 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_stop" ]
+        %barH.31 = local;
+        symbol [ barH %barH.31 147 12 16 ];
+        %tmp.439 = 6;
+        lputv %barH.31 %tmp.439;
+        symbol [ barH %barH.31 147 12 16 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 148 8 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_stop" ]
+        %barX.32 = local;
+        symbol [ barX %barX.32 148 12 16 ];
+        %tmp.440 = lgetv %cx.3;
+        symbol [ cx %tmp.440 148 19 21 ];
+        %tmp.441 = lgetv %barW.30;
+        symbol [ barW %tmp.441 148 24 28 ];
+        %tmp.442 = 2;
+        %tmp.443 = div %tmp.441 %tmp.442;
+        %tmp.444 = sub %tmp.440 %tmp.443;
+        lputv %barX.32 %tmp.444;
+        symbol [ barX %barX.32 148 12 16 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 149 8 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_stop" ]
+        %barY.33 = local;
+        symbol [ barY %barY.33 149 12 16 ];
+        %tmp.445 = lgetv %h.2;
+        symbol [ h %tmp.445 149 19 20 ];
+        %tmp.446 = 36;
+        %tmp.447 = sub %tmp.445 %tmp.446;
+        lputv %barY.33 %tmp.447;
+        symbol [ barY %barY.33 149 12 16 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 150 8 ]
+        %tmp.448 = lgetv %dc;
+        symbol [ dc %tmp.448 150 8 10 ];
+        symbol [ setColor %tmp.449 150 11 19 ];
+        %tmp.449 = getv function %tmp.448 :setColor;
+        symbol [ COLOR_DIM %tmp.451 150 20 29 ];
+        %tmp.451 = getv ? :COLOR_DIM;
+        symbol [ Graphics %tmp.452 150 31 39 ];
+        %tmp.452 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.453 150 40 51 ];
+        %tmp.453 = getv %tmp.452 :COLOR_BLACK;
+        invoke %tmp.448 %tmp.449(%tmp.451, %tmp.453);
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 151 8 ]
+        %tmp.454 = lgetv %dc;
+        symbol [ dc %tmp.454 151 8 10 ];
+        symbol [ fillRectangle %tmp.455 151 11 24 ];
+        %tmp.455 = getv function %tmp.454 :fillRectangle;
+        %tmp.456 = lgetv %barX.32;
+        symbol [ barX %tmp.456 151 25 29 ];
+        %tmp.457 = lgetv %barY.33;
+        symbol [ barY %tmp.457 151 31 35 ];
+        %tmp.458 = lgetv %barW.30;
+        symbol [ barW %tmp.458 151 37 41 ];
+        %tmp.459 = lgetv %barH.31;
+        symbol [ barH %tmp.459 151 43 47 ];
+        invoke %tmp.454 %tmp.455(%tmp.456, %tmp.457, %tmp.458, %tmp.459);
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 152 8 ]
+        %tmp.460 = lgetv %dc;
+        symbol [ dc %tmp.460 152 8 10 ];
+        symbol [ setColor %tmp.461 152 11 19 ];
+        %tmp.461 = getv function %tmp.460 :setColor;
+        symbol [ COLOR_ACCENT %tmp.463 152 20 32 ];
+        %tmp.463 = getv ? :COLOR_ACCENT;
+        symbol [ Graphics %tmp.464 152 34 42 ];
+        %tmp.464 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.465 152 43 54 ];
+        %tmp.465 = getv %tmp.464 :COLOR_BLACK;
+        invoke %tmp.460 %tmp.461(%tmp.463, %tmp.465);
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 153 8 ]
+        [ "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_start" "C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_stop" ]
+        %fillW.34 = local;
+        symbol [ fillW %fillW.34 153 12 17 ];
+        %tmp.466 = lgetv %stepPct.29;
+        symbol [ stepPct %tmp.466 153 21 28 ];
+        %tmp.467 = lgetv %barW.30;
+        symbol [ barW %tmp.467 153 31 35 ];
+        %tmp.468 = mul %tmp.466 %tmp.467;
+        %tmp.469 = 100;
+        %tmp.470 = div %tmp.468 %tmp.469;
+        symbol [ toNumber %tmp.471 153 43 51 ];
+        %tmp.471 = getv function %tmp.470 :toNumber;
+        %tmp.472 = invoke %tmp.470 %tmp.471();
+        lputv %fillW.34 %tmp.472;
+        symbol [ fillW %fillW.34 153 12 17 ];
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 154 8 ]
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_154_8_154_36_if_stmt:
+        %tmp.473 = lgetv %fillW.34;
+        symbol [ fillW %tmp.473 154 12 17 ];
+        %tmp.474 = 1;
+        %tmp.475 = lt %tmp.473 %tmp.474;
+        bf %tmp.475 @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_154_8_154_36_if_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_154_8_154_36_if_true:
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_154_23_154_36_start:
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 154 25 ]
+        %tmp.476 = 1;
+        lputv %fillW.34 %tmp.476;
+        symbol [ fillW %fillW.34 154 25 30 ];
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_154_23_154_36_stop:
+        goto @C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_154_8_154_36_if_end;
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_154_8_154_36_if_end:
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 155 8 ]
+        %tmp.477 = lgetv %dc;
+        symbol [ dc %tmp.477 155 8 10 ];
+        symbol [ fillRectangle %tmp.478 155 11 24 ];
+        %tmp.478 = getv function %tmp.477 :fillRectangle;
+        %tmp.479 = lgetv %barX.32;
+        symbol [ barX %tmp.479 155 25 29 ];
+        %tmp.480 = lgetv %barY.33;
+        symbol [ barY %tmp.480 155 31 35 ];
+        %tmp.481 = lgetv %fillW.34;
+        symbol [ fillW %tmp.481 155 37 42 ];
+        %tmp.482 = lgetv %barH.31;
+        symbol [ barH %tmp.482 155 44 48 ];
+        invoke %tmp.477 %tmp.478(%tmp.479, %tmp.480, %tmp.481, %tmp.482);
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 158 8 ]
+        %tmp.483 = lgetv %dc;
+        symbol [ dc %tmp.483 158 8 10 ];
+        symbol [ setColor %tmp.484 158 11 19 ];
+        %tmp.484 = getv function %tmp.483 :setColor;
+        symbol [ COLOR_DIM %tmp.486 158 20 29 ];
+        %tmp.486 = getv ? :COLOR_DIM;
+        symbol [ Graphics %tmp.487 158 31 39 ];
+        %tmp.487 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.488 158 40 51 ];
+        %tmp.488 = getv %tmp.487 :COLOR_BLACK;
+        invoke %tmp.483 %tmp.484(%tmp.486, %tmp.488);
+[ "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc" 159 8 ]
+        %tmp.489 = lgetv %dc;
+        symbol [ dc %tmp.489 159 8 10 ];
+        symbol [ drawText %tmp.490 159 11 19 ];
+        %tmp.490 = getv function %tmp.489 :drawText;
+        %tmp.491 = lgetv %cx.3;
+        symbol [ cx %tmp.491 159 20 22 ];
+        %tmp.492 = lgetv %h.2;
+        symbol [ h %tmp.492 159 24 25 ];
+        %tmp.493 = 20;
+        %tmp.494 = sub %tmp.492 %tmp.493;
+        symbol [ Graphics %tmp.495 159 32 40 ];
+        %tmp.495 = getm $.Toybox.Graphics;
+        symbol [ FONT_TINY %tmp.496 159 41 50 ];
+        %tmp.496 = getv %tmp.495 :FONT_TINY;
+        %tmp.497 = "热量 ";
+        %tmp.498 = lgetv %calVal.21;
+        symbol [ calVal %tmp.498 160 20 26 ];
+        symbol [ format %tmp.499 160 27 33 ];
+        %tmp.499 = getv function %tmp.498 :format;
+        %tmp.500 = "%d";
+        %tmp.501 = invoke %tmp.498 %tmp.499(%tmp.500);
+        %tmp.502 = add %tmp.497 %tmp.501;
+        %tmp.503 = " kcal";
+        %tmp.504 = add %tmp.502 %tmp.503;
+        symbol [ Graphics %tmp.505 160 51 59 ];
+        %tmp.505 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.506 160 60 79 ];
+        %tmp.506 = getv %tmp.505 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.489 %tmp.490(%tmp.491, %tmp.494, %tmp.496, %tmp.504, %tmp.506);
+C__Users_14911_Desktop_iq_MyWatchFace_source_MyWatchFaceView_mc_39_26_161_4_stop:
+    }
+}
+[ @file = "C:\Users\14911\Desktop\iq\MyWatchFace\source\MyWatchFaceView.mc"; @line = 1; ]
+<init> {
+}

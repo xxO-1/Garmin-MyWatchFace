@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\Users\14911\Desktop\iq\MyWatchFace\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="1" lineNum="9" parent="globals/MyWatchFaceView" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435472" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceApp.mc" id="3" lineNum="4" parent="globals/MyWatchFaceApp" pc="268435492" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="4" lineNum="16" parent="globals/MyWatchFaceView" pc="268435504" symbol="initialize"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="4" lineNum="17" parent="globals/MyWatchFaceView" pc="268435506" symbol="initialize"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="39" parent="globals/MyWatchFaceView" pc="268435519" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="40" parent="globals/MyWatchFaceView" pc="268435522" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="41" parent="globals/MyWatchFaceView" pc="268435531" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="42" parent="globals/MyWatchFaceView" pc="268435540" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="43" parent="globals/MyWatchFaceView" pc="268435547" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="46" parent="globals/MyWatchFaceView" pc="268435554" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="47" parent="globals/MyWatchFaceView" pc="268435566" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="50" parent="globals/MyWatchFaceView" pc="268435574" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="51" parent="globals/MyWatchFaceView" pc="268435586" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="52" parent="globals/MyWatchFaceView" pc="268435594" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="53" parent="globals/MyWatchFaceView" pc="268435602" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="56" parent="globals/MyWatchFaceView" pc="268435610" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="57" parent="globals/MyWatchFaceView" pc="268435622" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="58" parent="globals/MyWatchFaceView" pc="268435640" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="59" parent="globals/MyWatchFaceView" pc="268435647" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="60" parent="globals/MyWatchFaceView" pc="268435651" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="61" parent="globals/MyWatchFaceView" pc="268435661" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="62" parent="globals/MyWatchFaceView" pc="268435669" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="63" parent="globals/MyWatchFaceView" pc="268435684" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="64" parent="globals/MyWatchFaceView" pc="268435691" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="66" parent="globals/MyWatchFaceView" pc="268435706" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="67" parent="globals/MyWatchFaceView" pc="268435716" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="67" parent="globals/MyWatchFaceView" pc="268435728" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="70" parent="globals/MyWatchFaceView" pc="268435746" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="70" parent="globals/MyWatchFaceView" pc="268435754" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="71" parent="globals/MyWatchFaceView" pc="268435761" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="76" parent="globals/MyWatchFaceView" pc="268435839" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="77" parent="globals/MyWatchFaceView" pc="268435851" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="78" parent="globals/MyWatchFaceView" pc="268435859" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="79" parent="globals/MyWatchFaceView" pc="268435871" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="80" parent="globals/MyWatchFaceView" pc="268435874" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="81" parent="globals/MyWatchFaceView" pc="268435879" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="82" parent="globals/MyWatchFaceView" pc="268435882" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="83" parent="globals/MyWatchFaceView" pc="268435888" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="83" parent="globals/MyWatchFaceView" pc="268435899" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="84" parent="globals/MyWatchFaceView" pc="268435911" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="84" parent="globals/MyWatchFaceView" pc="268435934" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="85" parent="globals/MyWatchFaceView" pc="268435946" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="85" parent="globals/MyWatchFaceView" pc="268435957" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="89" parent="globals/MyWatchFaceView" pc="268435972" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="94" parent="globals/MyWatchFaceView" pc="268435980" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="95" parent="globals/MyWatchFaceView" pc="268435995" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="98" parent="globals/MyWatchFaceView" pc="268436021" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="99" parent="globals/MyWatchFaceView" pc="268436037" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="102" parent="globals/MyWatchFaceView" pc="268436057" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="103" parent="globals/MyWatchFaceView" pc="268436114" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="104" parent="globals/MyWatchFaceView" pc="268436130" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="107" parent="globals/MyWatchFaceView" pc="268436153" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="108" parent="globals/MyWatchFaceView" pc="268436168" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="111" parent="globals/MyWatchFaceView" pc="268436206" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="112" parent="globals/MyWatchFaceView" pc="268436221" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="115" parent="globals/MyWatchFaceView" pc="268436253" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="116" parent="globals/MyWatchFaceView" pc="268436261" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="117" parent="globals/MyWatchFaceView" pc="268436265" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="120" parent="globals/MyWatchFaceView" pc="268436273" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="121" parent="globals/MyWatchFaceView" pc="268436288" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="122" parent="globals/MyWatchFaceView" pc="268436314" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="123" parent="globals/MyWatchFaceView" pc="268436330" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="124" parent="globals/MyWatchFaceView" pc="268436364" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="127" parent="globals/MyWatchFaceView" pc="268436387" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="128" parent="globals/MyWatchFaceView" pc="268436402" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="129" parent="globals/MyWatchFaceView" pc="268436428" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="130" parent="globals/MyWatchFaceView" pc="268436444" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="134" parent="globals/MyWatchFaceView" pc="268436505" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="135" parent="globals/MyWatchFaceView" pc="268436520" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="136" parent="globals/MyWatchFaceView" pc="268436546" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="137" parent="globals/MyWatchFaceView" pc="268436552" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="137" parent="globals/MyWatchFaceView" pc="268436560" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="138" parent="globals/MyWatchFaceView" pc="268436570" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="138" parent="globals/MyWatchFaceView" pc="268436578" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="139" parent="globals/MyWatchFaceView" pc="268436588" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="140" parent="globals/MyWatchFaceView" pc="268436601" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="144" parent="globals/MyWatchFaceView" pc="268436642" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="145" parent="globals/MyWatchFaceView" pc="268436668" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="145" parent="globals/MyWatchFaceView" pc="268436676" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="146" parent="globals/MyWatchFaceView" pc="268436683" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="147" parent="globals/MyWatchFaceView" pc="268436688" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="148" parent="globals/MyWatchFaceView" pc="268436692" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="149" parent="globals/MyWatchFaceView" pc="268436702" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="150" parent="globals/MyWatchFaceView" pc="268436709" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="151" parent="globals/MyWatchFaceView" pc="268436724" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="152" parent="globals/MyWatchFaceView" pc="268436742" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="153" parent="globals/MyWatchFaceView" pc="268436757" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="154" parent="globals/MyWatchFaceView" pc="268436773" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="154" parent="globals/MyWatchFaceView" pc="268436781" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="155" parent="globals/MyWatchFaceView" pc="268436788" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="158" parent="globals/MyWatchFaceView" pc="268436806" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="5" lineNum="159" parent="globals/MyWatchFaceView" pc="268436821" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="6" lineNum="21" parent="globals/MyWatchFaceView" pc="268436869" symbol="getHeartRate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="6" lineNum="23" parent="globals/MyWatchFaceView" pc="268436872" symbol="getHeartRate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="6" lineNum="27" parent="globals/MyWatchFaceView" pc="268436906" symbol="getHeartRate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="6" lineNum="28" parent="globals/MyWatchFaceView" pc="268436912" symbol="getHeartRate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="6" lineNum="29" parent="globals/MyWatchFaceView" pc="268436922" symbol="getHeartRate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="6" lineNum="30" parent="globals/MyWatchFaceView" pc="268436950" symbol="getHeartRate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="6" lineNum="33" parent="globals/MyWatchFaceView" pc="268436973" symbol="getHeartRate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceView.mc" id="6" lineNum="36" parent="globals/MyWatchFaceView" pc="268436989" symbol="getHeartRate"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceApp.mc" id="7" lineNum="9" parent="globals/MyWatchFaceApp" pc="268436991" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceApp.mc" id="7" lineNum="11" parent="globals/MyWatchFaceApp" pc="268436993" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceApp.mc" id="8" lineNum="5" parent="globals/MyWatchFaceApp" pc="268437019" symbol="initialize"/>
+        <entry filename="C:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\source\\MyWatchFaceApp.mc" id="8" lineNum="6" parent="globals/MyWatchFaceApp" pc="268437021" symbol="initialize"/>
+        <entry filename="c:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="9" lineNum="13" parent="globals/Rez/Layouts" pc="268437034" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="9" lineNum="14" parent="globals/Rez/Layouts" pc="268437045" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\14911\\Desktop\\iq\\MyWatchFace\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="9" lineNum="16" parent="globals/Rez/Layouts" pc="268437161" symbol="WatchFace"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="6" object="true" symbol="MyWatchFaceApp"/>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="8388924" module="true" symbol="Gregorian"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="7" object="true" symbol="MyWatchFaceView"/>
+        <entry field="true" id="11" symbol="AppName"/>
+        <entry id="8388633" module="true" symbol="ActivityMonitor"/>
+        <entry field="true" id="8389807" symbol="data"/>
+        <entry id="5" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8" method="true" symbol="getHeartRate"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="8389809" symbol="order"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="10" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389808" symbol="period"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry field="true" id="8389347" symbol="color"/>
+        <entry id="9" module="true" symbol="Layouts"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268436868" name="dc" stackId="1" startPc="268435519"/>
+        <entry endPc="268436867" name="w" stackId="2" startPc="268435522"/>
+        <entry endPc="268436867" name="h" stackId="3" startPc="268435522"/>
+        <entry endPc="268436867" name="cx" stackId="4" startPc="268435522"/>
+        <entry endPc="268436867" name="cy" stackId="5" startPc="268435522"/>
+        <entry endPc="268436867" name="clockTime" stackId="6" startPc="268435522"/>
+        <entry endPc="268436867" name="hour" stackId="7" startPc="268435522"/>
+        <entry endPc="268436867" name="minute" stackId="8" startPc="268435522"/>
+        <entry endPc="268436867" name="second" stackId="9" startPc="268435522"/>
+        <entry endPc="268436867" name="now" stackId="10" startPc="268435522"/>
+        <entry endPc="268436867" name="info" stackId="11" startPc="268435522"/>
+        <entry endPc="268436867" name="weekDaysCn" stackId="12" startPc="268435522"/>
+        <entry endPc="268436867" name="dow" stackId="13" startPc="268435522"/>
+        <entry endPc="268435742" name="rawDow" stackId="14" startPc="268435661"/>
+        <entry endPc="268435739" name="s" stackId="15" startPc="268435706"/>
+        <entry endPc="268436867" name="dateWeekStr" stackId="16" startPc="268435522"/>
+        <entry endPc="268436867" name="stats" stackId="17" startPc="268435522"/>
+        <entry endPc="268436867" name="battery" stackId="18" startPc="268435522"/>
+        <entry endPc="268436867" name="stepsInfo" stackId="19" startPc="268435522"/>
+        <entry endPc="268436867" name="stepVal" stackId="20" startPc="268435522"/>
+        <entry endPc="268436867" name="goalVal" stackId="21" startPc="268435522"/>
+        <entry endPc="268436867" name="calVal" stackId="22" startPc="268435522"/>
+        <entry endPc="268436867" name="hr" stackId="23" startPc="268435522"/>
+        <entry endPc="268436867" name="timeStr" stackId="24" startPc="268435522"/>
+        <entry endPc="268436867" name="colL" stackId="25" startPc="268435522"/>
+        <entry endPc="268436867" name="colC" stackId="26" startPc="268435522"/>
+        <entry endPc="268436867" name="colR" stackId="27" startPc="268435522"/>
+        <entry endPc="268436867" name="stepK" stackId="28" startPc="268435522"/>
+        <entry endPc="268436867" name="batColor" stackId="29" startPc="268435522"/>
+        <entry endPc="268436867" name="stepPct" stackId="30" startPc="268435522"/>
+        <entry endPc="268436867" name="barW" stackId="31" startPc="268435522"/>
+        <entry endPc="268436867" name="barH" stackId="32" startPc="268435522"/>
+        <entry endPc="268436867" name="barX" stackId="33" startPc="268435522"/>
+        <entry endPc="268436867" name="barY" stackId="34" startPc="268435522"/>
+        <entry endPc="268436867" name="fillW" stackId="35" startPc="268435522"/>
+        <entry endPc="268436966" name="iter" stackId="1" startPc="268436872"/>
+        <entry endPc="268436963" name="sample" stackId="2" startPc="268436912"/>
+        <entry endPc="268436983" name="e" stackId="3" startPc="268436973"/>
+        <entry arg="true" endPc="268437170" name="dc" stackId="1" startPc="268437034"/>
+        <entry endPc="268437170" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268437045"/>
+    </localVars>
+    <deviceInfo deviceVersion="45fe3cbb0de8ea0a70e12628d2697915f1272301" partNumber="006-B4257-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="58" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/MyWatchFaceView" offset="116" parentId="globals" symbolId="MyWatchFaceView" type="class"/>
+        <dataEntry label="globals/Rez" offset="178" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/MyWatchFaceApp" offset="231" parentId="globals" symbolId="MyWatchFaceApp" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="284" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="319" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="354" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435471" name="&lt;init&gt;" parent="MyWatchFaceView" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435491" name="&lt;init&gt;" parent="Rez" startPc="268435472">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435503" name="&lt;init&gt;" parent="MyWatchFaceApp" startPc="268435492">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435518" name="initialize" parent="MyWatchFaceView" startPc="268435504">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436868" name="onUpdate" parent="MyWatchFaceView" startPc="268435519">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268436990" name="getHeartRate" parent="MyWatchFaceView" startPc="268436869">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437018" name="getInitialView" parent="MyWatchFaceApp" startPc="268436991">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437033" name="initialize" parent="MyWatchFaceApp" startPc="268437019">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437170" name="WatchFace" parent="Layouts" startPc="268437034">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

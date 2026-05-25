@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<iq:manifest version="3" xmlns:iq="http://www.garmin.com/xml/connectiq">
+    <iq:application
+        id="00000000-0000-0000-0000-000000000000"
+        type="watchface"
+        name="@Strings.AppName"
+        entry="MyWatchFaceApp"
+        launcherIcon="LauncherIcon"
+        minSdkVersion="3.4.0">
+        <iq:permissions>
+            <iq:uses-permission id="SensorHistory"/>
+        </iq:permissions>
+        <iq:products>
+            <iq:product id="fr265"/>
+        </iq:products>
+    </iq:application>
+</iq:manifest>
