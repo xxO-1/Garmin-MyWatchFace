@@ -1,0 +1,19 @@
+.gitignore 
+# Garmin Connect IQ 编译产物
+bin/
+*.prg
+*.elf
+*.map
+*.sym
+*.tmp
+
+# IDE 配置（如果使用 VSCode）
+.idea/
+*.iml
+.vscode/
+.*.swp
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
